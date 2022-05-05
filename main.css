@@ -1,0 +1,269 @@
+
+/* Inicio de main */
+.header{
+    background-color: #1C6DD0;
+    border: solid white 2px;
+
+}
+.header-nombre{
+    font-size: 2em;
+}
+.font{
+    color: white;
+    font-family:'Nunito', sans-serif ,'Roboto', sans-serif, 'Karla', sans-serif;;
+}
+.link2{
+    text-decoration: none;
+    color: white;
+}
+.link2:hover{
+    color: #000000;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    color: #000000;
+}
+.main{
+    background-color: #3479ce;
+}
+ .grid-video{
+    display: grid;
+    grid-template-areas: 
+    "titulo-d"
+    "video-d"
+    "titulo-e"
+    "video-e"
+    ;
+ }
+.titulo-d{
+    grid-area: titulo-d;
+    text-align: center;
+}
+.video-d{
+     grid-area: video-d;
+ }
+.titulo-e{
+    grid-area: titulo-e;
+    text-align: center;
+}
+
+.video-e{
+    grid-area: video-e;
+   
+}
+.video-es{
+    border: solid ;
+    border-radius: 1em;
+    color: white;
+}
+.video-de{
+    border: solid ;
+    border-radius: 1em;
+    color: white;
+}
+.grid-cont-index{
+    display: grid;
+    grid-template-areas: 
+    "titulo-md"
+    "cont-md"
+    "titulo-n"
+    "cont-n"
+    "titulo-es"
+    "cont-es"
+    ;
+ }
+ .titulo-md{
+    grid-area: titulo-md;
+    text-align: center;
+}
+
+.cont-md{
+    grid-area: cont-md;
+   
+}
+.titulo-n{
+    grid-area: titulo-n;
+    text-align: center;
+}
+
+.cont-n{
+    grid-area: cont-n;
+   
+}
+.titulo-es{
+    grid-area: titulo-es;
+    text-align: center;
+}
+
+.cont-es{
+    grid-area: cont-es;
+   
+}
+.grid-lanz{
+    display: grid;
+    grid-template-areas: 
+    "titulo-lz"
+    "lanza"
+    "titulo-of"
+    "ofertas"
+    ;
+ }
+ .titulo-lz{
+     grid-area: titulo-lz;
+     text-align: center;
+ }
+ .lanza{
+    grid-area: lanza;
+}
+.titulo-of{
+    grid-area: titulo-of;
+    text-align: center;
+}
+.ofertas{
+    grid-area: ofertas;
+}
+.borde{
+    border: solid;
+    color: white;      
+}
+
+/* Fin de main */
+
+/*Inicio de Footer */
+.Footer-grid{
+    background-color: #1C6DD0;
+    display: grid;
+    border: solid white;
+    grid-template-areas: 
+    "f-top"
+    "f-form"
+    "f-con"
+    ;
+    align-items: center;
+}
+.f-top{
+    grid-area: f-top;
+    display: flex;
+}
+
+.f-con{
+    grid-area: f-con;
+    display: flex;
+}
+.f-form{
+     grid-area: f-form;
+ }
+.f-redes{
+     grid-area: f-redes;
+ }
+ .footer-item{
+    text-align: center;
+   align-items: center;
+ }
+ .footer-item li{
+    display: inline; 
+    list-style-type: none; 
+    margin-left: 3%;
+    margin-right: 3%;
+ }
+.fot-cont{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+/* Fin de footer */
+@media screen and (min-width:375px) {
+    .video-es{
+        height: 190px;
+    }
+    .video-de{
+        height: 190px;
+    }
+
+}
+@media screen and (min-width:425px) {
+    .video-es{
+        height: 250px;
+    }
+    .video-de{
+        height: 250px;
+    }
+
+}
+@media screen and (min-width:580px) {
+    .video-es{
+        height: 340px;
+    }
+    .video-de{
+        height: 340px;
+    }
+
+}
+@media screen and (min-width:768px) {
+    .grid-video{
+        display: grid;
+        grid-template-areas: 
+        "titulo-d titulo-e"
+        "video-d video-e"
+        ;
+     }
+    .video-es{
+        height: 230px;
+    }
+    .video-de{
+        height: 230px;
+    }
+    .Footer-grid{
+        display: grid;
+        grid-template-areas: 
+        "f-top f-form f-con"
+    }
+
+    .gird-cont-2{
+        display: grid;
+        grid-template-areas: 
+        "titulo-cont-2"
+        "cont-a cont-b cont-c"
+        ;
+     }
+     .cont-c{
+        grid-area: cont-c;
+        display: block;
+    }
+    
+     
+}
+.flex-n{
+ display: flex;
+}
+@media screen and (min-width:1024px) {
+    .video-es{
+        height: 300px;
+    }
+    .video-de{
+        height: 300px;
+    }
+    .grid-cont-index{
+        display: grid;
+        grid-template-areas: 
+        "titulo-md cont-md"
+        "titulo-n cont-n"
+        "titulo-es cont-es"
+        ;
+     }
+
+}
+@media screen and (min-width:1440px) {
+    .video-es{
+        height: 370px;
+    }
+    .video-de{
+        height: 370px;
+    }
+    
+
+}
