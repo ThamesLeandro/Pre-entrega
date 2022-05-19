@@ -1,0 +1,141 @@
+/*Inicio de grids*/
+.grid-video{
+    display: grid;
+    grid-template-areas: 
+    "titulo-d"
+    "video-d"
+    "titulo-e"
+    "video-e"
+    ;
+ }
+.titulo-d{
+    grid-area: titulo-d;
+    text-align: center;
+}
+.video-d{
+     grid-area: video-d;
+ }
+.titulo-e{
+    grid-area: titulo-e;
+    text-align: center;
+}
+
+.video-e{
+    grid-area: video-e;
+   
+}
+.video-es{
+    border: solid ;
+    color: white;
+}
+.video-de{
+    border: solid ;
+    color: white;
+}
+.grid-cont-index{
+    display: grid;
+    grid-template-areas: 
+    "titulo-md"
+    "cont-md"
+    "titulo-n"
+    "cont-n"
+    "titulo-es"
+    "cont-es"
+    ;
+ }
+ .titulo-md{
+    grid-area: titulo-md;
+    text-align: center;
+}
+
+.cont-md{
+    grid-area: cont-md;
+   
+}
+.titulo-n{
+    grid-area: titulo-n;
+    text-align: center;
+}
+
+.cont-n{
+    grid-area: cont-n;
+   
+}
+.titulo-es{
+    grid-area: titulo-es;
+    text-align: center;
+}
+
+.cont-es{
+    grid-area: cont-es;
+   
+}
+.grid-lanz{
+    display: grid;
+    grid-template-areas: 
+    "titulo-lz"
+    "lanza"
+    "titulo-of"
+    "ofertas"
+    ;
+ }
+ .titulo-lz{
+     grid-area: titulo-lz;
+     text-align: center;
+ }
+ .lanza{
+    grid-area: lanza;
+}
+.titulo-of{
+    grid-area: titulo-of;
+    text-align: center;
+}
+.ofertas{
+    grid-area: ofertas;
+}
+
+
+
+.Footer-grid{
+    background-color: #1C6DD0;
+    display: grid;
+    border: solid white;
+    grid-template-areas: 
+    "f-top"
+    "f-form"
+    "f-con"
+    ;
+    align-items: center;
+}
+.f-top{
+    grid-area: f-top;
+    display: flex;
+}
+
+.f-con{
+    grid-area: f-con;
+    display: flex;
+}
+.f-form{
+     grid-area: f-form;
+ }
+.f-redes{
+     grid-area: f-redes;
+ }
+ .footer-item{
+    text-align: center;
+   align-items: center;
+ }
+ .footer-item li{
+    display: inline; 
+    list-style-type: none; 
+    margin-left: 3%;
+    margin-right: 3%;
+ }
+.fot-cont{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+/*Fin de grids*/

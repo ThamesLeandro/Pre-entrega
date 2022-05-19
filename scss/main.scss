@@ -1,0 +1,79 @@
+@import "bootstrap";
+@import "grids";
+@import "media";
+/* Inicio de main */
+.header{
+    background-color: #1C6DD0;
+    border: solid white 2px;
+
+}
+.header-nombre{
+    font-size: 2em;
+}
+.font{
+    color: white;
+    font-family:'Nunito', sans-serif ,'Roboto', sans-serif, 'Karla', sans-serif;;
+}
+.link2{
+    text-decoration: none;
+    color: white;
+}
+.link2:hover{
+    color: #000000;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    color: #000000;
+}
+.main{
+    background-color: #3479ceaf;
+}
+ 
+.borde{
+    border: solid;
+    color: white;      
+}
+.noti-border{
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.noti-p{
+    text-align: start;
+}
+.noti-autor{
+    max-width: 500px;
+}
+.noti-link{
+    text-decoration: none;
+    color: white;
+}
+.noti-link:hover{
+    color: #ffffff;
+}
+.autor-img{
+    border-radius: 2em;
+}
+.back-noti{
+    background-color: #0000005b;
+}
+/* Fin de main */
+/*Inicio*/
+$estilo: (
+    xbox: #2ca243,
+    playstation:#0072ce,
+    pc:#FACA04,
+    noticias: #ff9100,
+    nintendo:#fe0016,
+    esports:#8f0000,
+    );
+    @each $est, $color in $estilo{
+        .main-#{$est}{
+           background-color: $color;
+        }
+    }
+/*Fin*/
+
